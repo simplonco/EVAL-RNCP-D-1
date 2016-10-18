@@ -20,7 +20,9 @@
     <div class="container-fluid">
       <div class="row-fluid">
         <div class="col-sx-12">
-          test1
+          <h2 align="center">Connecting the world together through code</h2>
+          <h4 align="center">Welcoming refugees into the community through tech</h4>
+          <img src="images/backg.jpg" width="100" height="100" alt="logo" class="img-responsive center-block"/>
         </div>
       </div>
     </div>
@@ -80,34 +82,39 @@
       <!--Start Main Activities page -->
       <div class="container"><!--Start Main Activities page -->
         <h1 align="center">Main Activities</h1>
-        <div class="row">
-          <div class="col-xs-4">
-            <img src="images/class.JPG" alt="class-photo" class="img-reponsive" width="304" height="500"/>
-            <p>some pragraph which give a little details about this photo</p>
-          </div>
-          <div class="col-xs-4">
-            <img src="images/class1.JPG" alt="class-photo" class="img-responsive" width="304" height="436"/>
-            <p class="text-info">some pragraph which give a little details about this photo</p>
-            <img src="images/following.JPG" alt="class-photo" class="img-responsive" width="304" height="436"/>
-            <p class="text-info">some pragraph which give a little details about this photo</p>
-          </div>
-          <div class="col-xs-4">
-            <img src="images/following1.JPG" alt="class-photo" class="img-reponsive" width="304" height="500"/>
-            <p>some pragraph which give a little details about this photo</p>
-          </div>
-        </div>
+        <h3>Workshops</h3>
+        <p>
+        We give free regular workshops several evenings per week for 4-6 week sessions.
+          The sessions start with basic concepts of web development—moving from HTML and CSS to Javascript and beyond, and make use of interactive online platforms and exercises adapted for participants of all backgrounds and learning abilities.
+Interested in learning more about to participate in these workshops? Please fill out the questionnaire (this is a link to a google form) in the link provided <a href="#">here</a>, and we will follow up with you for more details!
+        </p>
         <div class="row-fluid">
-          <div class="col-xs-8">
-            <img src="images/period1.JPG" alt="class-photo" class="img-responsive" width="500" height="500"/>
-            <p class="text-info">some pragraph which give a little details about this photo</p>
+          <div class="col-xs-4">
+            <img src="images/class.JPG" alt="class-" class="img-responsive center-block"/>
           </div>
           <div class="col-xs-4">
-            <img src="images/template.JPG" alt="class-photo" class="img-responsive" width="500" height="500"/>
-            <p class="text-info">some pragraph which give a little details about this photo</p>
+            <img src="images/class1.JPG" alt="classphoto" class="img-responsive center-block"/>
           </div>
-        </div>
+          <div class="col-xs-4">
+            <img src="images/following.JPG" alt="class-photo" class="img-responsive center-block"/>
+          </div>
+          </div>
+          <div class="row-fluid">
+          <div class="col-xs-4">
+            <img src="images/following1.JPG" alt="photo" class="img-responsive center-block"/>
+          </div>
+          <div class="col-xs-4">
+            <img src="images/period1.JPG" alt="class-photo" class="img-responsive center-block"/>
+          </div>
+          <div class="col-xs-4">
+            <img src="images/template.JPG" alt="class-photo" class="img-responsive center-block"/>
+          </div>
+          </div>
       </div>
       <!--End Main Activities page -->
+      <div class="container">
+        <h3>Mentor Program</h3>
+      </div>
       <hr><br><br><br>
       <!--Start Tean & partners page -->
       <section>
