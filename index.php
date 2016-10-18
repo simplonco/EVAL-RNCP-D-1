@@ -74,13 +74,83 @@
        Our organization aims to tackle this by providing refugees with opportunities to learn and connect with through code.
       </p>
     </div>
+    <hr>
+    <br><br><br><br><br>
       <!--End Introduction page -->
       <!--Start Main Activities page -->
-      <div class="container">
-        
+      <div class="container"><!--Start Main Activities page -->
+        <h1 align="center">Main Activities</h1>
+        <div class="row">
+          <div class="col-xs-4">
+            <img src="images/class.JPG" alt="class-photo" class="img-reponsive" width="304" height="500"/>
+            <p>some pragraph which give a little details about this photo</p>
+          </div>
+          <div class="col-xs-4">
+            <img src="images/class1.JPG" alt="class-photo" class="img-responsive" width="304" height="436"/>
+            <p class="text-info">some pragraph which give a little details about this photo</p>
+            <img src="images/following.JPG" alt="class-photo" class="img-responsive" width="304" height="436"/>
+            <p class="text-info">some pragraph which give a little details about this photo</p>
+          </div>
+          <div class="col-xs-4">
+            <img src="images/following1.JPG" alt="class-photo" class="img-reponsive" width="304" height="500"/>
+            <p>some pragraph which give a little details about this photo</p>
+          </div>
+        </div>
+        <div class="row-fluid">
+          <div class="col-xs-8">
+            <img src="images/period1.JPG" alt="class-photo" class="img-responsive" width="500" height="500"/>
+            <p class="text-info">some pragraph which give a little details about this photo</p>
+          </div>
+          <div class="col-xs-4">
+            <img src="images/template.JPG" alt="class-photo" class="img-responsive" width="500" height="500"/>
+            <p class="text-info">some pragraph which give a little details about this photo</p>
+          </div>
+        </div>
       </div>
       <!--End Main Activities page -->
-
+      <hr><br><br><br>
+      <!--Start Tean & partners page -->
+      <section>
+        <h1 align="center">Team & Partners</h1>
+        <div class="container">
+          <div class="row-fluid">
+            <div class="col-xs-7">
+              <h3 align="center">Team</h3>
+            </div>
+            <div class="col-xs-5">
+              <h3 align="center">Partners</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--End Team & partners  page -->
+      <!--Start Contact Us  page -->
+      <div class="container">
+        <h3 align="center">Contact Us</h3>
+        <form class="form-group">
+          <input type="text" name="name" value="" placeholder="write your name"><br>
+          <input type="email" name="email" value="" placeholder="write your E-mail"><br>
+          <textarea name="leave your message" rows="8" cols="40"></textarea><br>
+          <input type="submit" name="name" value="send">
+        </form>
+      </div>
+      <!--End Contact Us  page -->
+      <!--Start media Contact  page -->
+      <div class="media">
+        <i class="fa fa-facebook fa-4x"></i>
+        <i class="fa fa-twitter fa-4x"></i>
+        <i class="fa fa-youtube fa-4x"></i>
+      <a href="#"><i class="fa fa-linkedin fa-4x"></i> </a>
+        <a href="#"><i class="fa fa-google-plus fa-4x"></i> </a>
+      </div>
+      <!--End  media Contact  page -->
+      <!--Start footer  page -->
+      <footer>
+        <p class="align-center">
+          Copyright by Suliman and Elmardi 2016
+        </p>
+      </footer>
+      <!--End footer  page -->
    <script src="js/jquery-3.1.0.min.js"></script>
    <script src="js/jquery.mixitup.js"></script>
    <script src="js/jquery.bxslider.min.js"></script>
