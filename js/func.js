@@ -1,14 +1,9 @@
 $(function () {
   "use strict";
-  alert("Hello! I am an alert box!!");
-  $('.scrollTo').on('click', function() {
-              $('html, body').animate({
-             scrollTop: $(#About, #main-act, #team, #partners, #contact).offset();
-         }, 2000);
-     });
-  //function slider
-  $('.bxslider').bxSlider({
-    pager: false
+  $('.scrollTo').click(function() {
+    $('html, body').animate({
+      scrollTop:$('#contact').offset().top
+    }, 2000);
   });
   //notre auto slider
   (function AutoSlider() {
@@ -28,5 +23,4 @@ $(function () {
     }
     });
   }());
-
 });

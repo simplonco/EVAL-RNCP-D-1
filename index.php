@@ -32,27 +32,27 @@
       <ul id="drop-nav">
   <li><a href="#">Inroduction
     <ul>
-      <li><a href="#About">About Konexio</a></li>
-      <li><a href="#our-mission">Our Mission</a></li>
+      <li><a class="scrollTo"  href="#">About Konexio</a></li>
+      <li><a class="scrollTo"  href="#">Our Mission</a></li>
     </ul>
   </a></li>
-  <li><a href="#">Team & partners</a>
+  <li><a  class="scrollTo" href="#">Team & partners</a>
   </li>
-  <li><a href="#main-act">Main Activities</a>
+  <li><a class="scrollTo"  href="#">Main Activities</a>
     <ul>
-      <li><a href="#"></a></li>
-      <li><a href="#"></a></li>
+      <li><a class="scrollTo"  href="#"></a></li>
+      <li><a class="scrollTo"  href="#"></a></li>
     </ul>
   </li>
-  <li><a href="#">Contact</a>
+  <li><a class="scrollTo"  href="#">Contact</a>
     <ul>
-      <li><a href="#">Details</a></li>
-      <li><a href="#">Ask me a Question</a></li>
+      <li><a class="scrollTo" href="#">Details</a></li>
+      <li><a class="scrollTo"  href="#">Ask me a Question</a></li>
     </ul>
   </li>
-  <li><a href="#">Testimonial </a>
+  <li><a class="scrollTo"  href="#">Testimonial </a>
     <ul>
-      <li><a href="#">Testimonial video</a></li>
+      <li><a class="scrollTo"  href="#">Testimonial video</a></li>
       <li><a href="#">Testimonial text </a></li>
     </ul>
   </li>
@@ -115,7 +115,7 @@ Interested in learning more about to participate in these workshops? Please fill
         <div class="container">
           <div class="row-fluid">
               <h3 align="center">Team</h3>
-          <div class="col-xs-3">
+          <div class="col-xs-3" id="team">
             <img src="images/Jean.jpg" alt="Jean" width="100" height="100" />
               <h4> Jean Guo</h4>
               <p class="text-left">
@@ -136,9 +136,9 @@ Interested in learning more about to participate in these workshops? Please fill
             <img src="images/mio.jpg" alt="Suliman"  width="100" height="100"/>
             <p></p>
             <h4>Suliman</h4>
-            <a href="#"><i class="fa fa-linkedin-square fa-3x"></i></a>
+            <a  class="scrollTo" href="#"><i class="fa fa-linkedin-square fa-3x"></i></a>
           </div>
-            <div class="col-xs-3">
+            <div class="col-xs-3" id="partners">
               <h3 align="center">Partners</h3>
               <img src="images/singa.png" alt="SINGA" class="img-responsive center-block"  width="200" height="200"/>
               <img src="images/picoulet.jpg" alt="" class="img-responsive center-block"  width="200" height="200"/>
@@ -150,7 +150,7 @@ Interested in learning more about to participate in these workshops? Please fill
       <!--End Team & partners  page -->
       <hr>
       <!--Start Contact Us  page -->
-      <div class="container">
+      <div class="container" id="contact">
         <h3>Contact Us</h3>
         <form class="form-group">
           <input type="text" name="name" value="" placeholder="write your name"><br>
@@ -159,9 +159,39 @@ Interested in learning more about to participate in these workshops? Please fill
           <input type="submit" name="name" value="send">
         </form>
       </div>
-
       <!--End Contact Us  page -->
       <!--Start media Contact  page -->
+      <!--/*  Start Testimonials page */-->
+      <div class="testim">
+      <div class="te-overlay">
+        <div class="container">
+          <h2><u>What say our learners</u></h2>
+        <div class="slider">
+          <div class="active">
+            <q cite="Elmardi">This really great idea to this kind of project that help peoples to discover the coding in simple way!</q><br>
+            <p>Elmardi</p>
+          </div>
+          <div>
+            <q cite="Elmardi">This really great idea to this kind of project that help peoples to discover the coding in simple way!</q><br>
+            <p>Elmardi</p>
+          </div>
+          <div>
+            <q cite="Elmardi">This really great idea to this kind of project that help peoples to discover the coding in simple way!</q><br>
+            <p>Elmardi</p>
+          </div>
+          <div>
+            <q cite="Elmardi">This really great idea to this kind of project that help peoples to discover the coding in simple way!</q><br>
+            <p>Elmardi</p>
+          </div>
+          <div>
+            <q cite="Elmardi">This really great idea to this kind of project that help peoples to discover the coding in simple way!</q><br>
+            <p>Elmardi</p>
+          </div>
+        </div>
+        </div>
+      </div>
+      </div>
+    <!--  /*  End  Testimonial page  */-->
       <div class="media">
         <a href="#"><i class="fa fa-facebook-square fa-4x"></i></a>
         <a href="#"><i class="fa fa-linkedin-square fa-4x"></i></a>
@@ -181,6 +211,6 @@ Interested in learning more about to participate in these workshops? Please fill
    <script src="js/jquery.smooth-scroll.js"></script>
    <script src="js/jquery.mixitup.js"></script>
    <script src="js/jquery.bxslider.min.js"></script>
-   <script src="js/test.js"></script>
+   <script src="js/func.js"></script>
   </body>
 </html>
