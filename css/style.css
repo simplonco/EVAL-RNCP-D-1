@@ -1,13 +1,43 @@
+/*  Start  our main lists  */
+/*  End  our main lists  */
+
+
+/*  Start  our main lists  */
+/*  End  our main lists  */
+
+/*  Start  container-fluid  */
 .container-fluid{
   color: #9900ff;
-  height: 470px;
+  height: 570px;
   background-image: url(../images/backg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  overflow: hidden;
 }
-.container{
+/*  End  container-fluid  */
 
+/*  Start container  */
+.container{
 }
+.container h1 h2 h3 h4 h5 h5{
+  padding-top: 15px
+  padding-bottom: 10px;
+}
+.container p{
+padding-bottom: 12px;
+margin: 12px;
+font-size: 16px
+}
+.container img{
+  padding-top: 15px
+  padding-bottom: 10px;
+}
+.container i{
+  width: 60px;
+  height: 80px;
+}
+/*  End  container  */
+/*  Start  our main lists  */
 ul {list-style: none;padding: 0px; margin: 10px auto;;}
  ul li {display: block;position: relative;float: left;border:1px solid #000}
  li ul {display: none;}
@@ -19,3 +49,22 @@ ul {list-style: none;padding: 0px; margin: 10px auto;;}
  li:hover a {background: #4dffff;}
  li:hover li a:hover {background: #4da6ff;}
  #drop-nav li ul li {border-top: 0px;}
+ /*  End  our main lists  */
+
+/*  Start  our main lists  */
+/*  End  our main lists  */
+/*  Start  our main lists  */
+/*  End  our main lists  */
+/*  Start  our main lists  */
+/*  End  our main lists  */
+/*  Start  media  */
+.media{
+  color: #66e0ff;
+  height: 60px;
+  text-align: center;
+}
+.media i{
+  padding-top: 12px;
+font-size: 40px;
+}
+/*  End media  */

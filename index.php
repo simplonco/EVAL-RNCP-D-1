@@ -28,24 +28,18 @@
     </div>
       <!--End first page -->
     <!--Start list  page -->
-    <div class="container">
+    <div id="scrollTo" class="container">
       <ul id="drop-nav">
   <li><a href="#">Inroduction
     <ul>
-      <li><a href="#">About Konexio</a></li>
-      <li><a href="#">Our Mission</a></li>
+      <li><a href="#About">About Konexio</a></li>
+      <li><a href="#our-mission">Our Mission</a></li>
     </ul>
   </a></li>
   <li><a href="#">Team & partners</a>
-    <ul>
-      <li><a href="#"></a></li>
-      <li><a href="#"></a></li>
-    </ul>
   </li>
-  <li><a href="#">Main Activities</a>
+  <li><a href="#main-act">Main Activities</a>
     <ul>
-      <li><a href="#"></a></li>
-      <li><a href="#"></a></li>
       <li><a href="#"></a></li>
       <li><a href="#"></a></li>
     </ul>
@@ -66,21 +60,20 @@
     </div>
     <!--End list page -->
       <!--Start Inroduction  page -->
-    <div class="container">
+    <div  id="About" class="container">
       <h1>About Konexio</h1>
       <p> – a few paragraphs on objectives of the organization</p>
       <h1>Our Mission</h1>
-      <p>
+      <p id="our-mission">
        With the recent migrant crisis impacting Europe and the world on an unprecedented scale, our mission is to contribute to the process of integration of refugees into these communities through innovation and technology.
        Refugees face a number of tough challenges once their asylum status has been obtained, but one of the most critical and most burdensome problems for European nations medium to longer term will be that of economic integration through job opportunity.
        Our organization aims to tackle this by providing refugees with opportunities to learn and connect with through code.
       </p>
     </div>
     <hr>
-    <br><br><br><br><br>
       <!--End Introduction page -->
       <!--Start Main Activities page -->
-      <div class="container"><!--Start Main Activities page -->
+      <div id="main-act" class="container"><!--Start Main Activities page -->
         <h1 align="center">Main Activities</h1>
         <h3>Workshops</h3>
         <p>
@@ -115,25 +108,50 @@ Interested in learning more about to participate in these workshops? Please fill
       <div class="container">
         <h3>Mentor Program</h3>
       </div>
-      <hr><br><br><br>
+      <hr>
       <!--Start Tean & partners page -->
       <section>
         <h1 align="center">Team & Partners</h1>
         <div class="container">
           <div class="row-fluid">
-            <div class="col-xs-7">
               <h3 align="center">Team</h3>
-            </div>
-            <div class="col-xs-5">
+          <div class="col-xs-3">
+            <img src="images/Jean.jpg" alt="Jean" width="100" height="100" />
+              <h4> Jean Guo</h4>
+              <p class="text-left">
+            With a background in economics, public health, and policy, Jean is passionate about improving and addressing disparities with regard to equal opportunity. She developed the idea for the project through conversations with the refugee community, which made her realize their lack of access to professional
+              </p>
+            <a href="#"><i class="fa fa-facebook-square fa-3x"></i></a>
+            <a href="#"><i class="fa fa-linkedin-square fa-3x"></i></a>
+            <a href="#"><i class="fa fa-twitter-square fa-3x"></i></a>
+          </div>
+          <div class="col-xs-3">
+            <img src="images/mardi.jpg" alt="Jean"  width="100" height="100" />
+            <h4>Elmardi</h4>
+            <a href="#"><i class="fa fa-github-square fa-3x"></i></a>
+            <a href="#"><i class="fa fa-linkedin-square fa-3x"></i></a>
+            <a href="#"><i class="fa fa-twitter-square fa-3x"></i></a>
+          </div>
+          <div class="col-xs-3">
+            <img src="images/mio.jpg" alt="Suliman"  width="100" height="100"/>
+            <p></p>
+            <h4>Suliman</h4>
+            <a href="#"><i class="fa fa-linkedin-square fa-3x"></i></a>
+          </div>
+            <div class="col-xs-3">
               <h3 align="center">Partners</h3>
+              <img src="images/singa.png" alt="SINGA" class="img-responsive center-block"  width="200" height="200"/>
+              <img src="images/picoulet.jpg" alt="" class="img-responsive center-block"  width="200" height="200"/>
+              <img src="images/simp.png" alt="Simplon" class="img-responsive center-block" width="200" height="200" />
             </div>
           </div>
         </div>
       </section>
       <!--End Team & partners  page -->
+      <hr>
       <!--Start Contact Us  page -->
       <div class="container">
-        <h3 align="center">Contact Us</h3>
+        <h3>Contact Us</h3>
         <form class="form-group">
           <input type="text" name="name" value="" placeholder="write your name"><br>
           <input type="email" name="email" value="" placeholder="write your E-mail"><br>
@@ -141,24 +159,26 @@ Interested in learning more about to participate in these workshops? Please fill
           <input type="submit" name="name" value="send">
         </form>
       </div>
+
       <!--End Contact Us  page -->
       <!--Start media Contact  page -->
       <div class="media">
-        <i class="fa fa-facebook fa-4x"></i>
-        <i class="fa fa-twitter fa-4x"></i>
-        <i class="fa fa-youtube fa-4x"></i>
-      <a href="#"><i class="fa fa-linkedin fa-4x"></i> </a>
-        <a href="#"><i class="fa fa-google-plus fa-4x"></i> </a>
+        <a href="#"><i class="fa fa-facebook-square fa-4x"></i></a>
+        <a href="#"><i class="fa fa-linkedin-square fa-4x"></i></a>
+        <a href="#"><i class="fa fa-twitter-square fa-4x"></i></a>
+          <a href="#"><i class="fa fa-google-plus-square fa-4x"></i></a>
+            <a href="#"><i class="fa fa-youtube-square fa-4x"></i></a>
       </div>
       <!--End  media Contact  page -->
       <!--Start footer  page -->
       <footer>
-        <p class="align-center">
-          Copyright by Suliman and Elmardi 2016
+        <p align="center">
+         all rights reserved to Elmardi & Suliman copyright© --2016
         </p>
       </footer>
       <!--End footer  page -->
    <script src="js/jquery-3.1.0.min.js"></script>
+   <script src="js/jquery.smooth-scroll.js"></script>
    <script src="js/jquery.mixitup.js"></script>
    <script src="js/jquery.bxslider.min.js"></script>
    <script src="js/test.js"></script>
