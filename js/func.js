@@ -5,6 +5,24 @@ $(function () {
       scrollTop:$('#contact').offset().top
     }, 2000);
   });
+  //main-act  auto slider
+  (function AutoSlider() {
+    $('.slid .act').each(function () {
+      if (!$(this).is(':last-child')){
+      $(this).fadeOut(10000,function () {
+         $(this).removeClass('act').next().addClass('act').fadeIn();
+         AutoSlider();
+      });
+    }else {
+      $(this).fadeOut(10000,function () {
+         $(this).removeClass('act');
+      $('.slid div').eq(0).addClass('act').fadeIn();
+       AutoSlider();
+      });
+
+    }
+    });
+  }());
   //notre auto slider
   (function AutoSlider() {
     $('.slider .active').each(function () {

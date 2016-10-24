@@ -50,7 +50,43 @@ ul {list-style: none;padding: 0px; margin: 10px auto;;}
  li:hover li a:hover {background: #4da6ff;}
  #drop-nav li ul li {border-top: 0px;}
  /*  End  our main lists  */
-
+ /*  Start  main-act  */
+ .main-act{
+   height: 400px;
+   position: relative;
+   text-align: center;
+   padding: 40px 0;
+   margin: 20px 0;
+ }
+ .main-act  h3{
+   font-size: 40px;
+   text-align: left;
+ }
+ .main-act  h1{
+   font-size: 60px;
+   text-align: center;
+ }
+ .main-act img{
+   padding-top: 20px;
+   margin-top: 20px;
+   width: 90%;
+   height: 400px
+ }
+ .main-act p{
+   font-size: 20px;
+   line-height: normal;
+   padding-top: 20px;
+   margin-top: 20px;
+ }
+ .main-act .slid >div{
+   display: none;
+ }
+ .main-act .slider .act{
+   display: block;
+   width: 100%;
+   height: 100%;
+ }
+ /*  End  main-act  */
 /*  Start  Testim  */
 .testim{
   background-image: url(../images/ke.jpg);
