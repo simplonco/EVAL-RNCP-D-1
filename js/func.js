@@ -1,8 +1,8 @@
 $(function () {
   "use strict";
-  $('.scrollTo').click(function() {
+  $('.links li a').click(function() {
     $('html, body').animate({
-      scrollTop:$('#contact').offset().top
+      scrollTop:$('#' + $(this).data('value')).offset().top
     }, 2000);
   });
   //main-act  auto slider
@@ -27,7 +27,7 @@ $(function () {
   (function AutoSlider() {
     $('.slider .active').each(function () {
       if (!$(this).is(':last-child')){
-      $(this).delay(3000).fadeOut(1000,function () {
+      $(this).delay(1000).fadeOut(1000,function () {
          $(this).removeClass('active').next().addClass('active').fadeIn();
          AutoSlider();
       });

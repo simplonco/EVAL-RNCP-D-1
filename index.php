@@ -28,32 +28,32 @@
     </div>
       <!--End first page -->
     <!--Start list  page -->
-    <div id="scrollTo" class="container">
-      <ul id="drop-nav">
-  <li><a href="#">Inroduction
+    <div class="container">
+      <ul class="links">
+  <li><a href="#" data-value="">Inroduction
     <ul>
-      <li><a class="scrollTo"  href="#">About Konexio</a></li>
-      <li><a class="scrollTo"  href="#">Our Mission</a></li>
+      <li><a href="#" data-value="About">About Konexio</a></li>
+      <li><a href="#" data-value="About">Our Mission</a></li>
     </ul>
   </a></li>
-  <li><a  class="scrollTo" href="#">Team & partners</a>
+  <li><a href="#" data-value="team">Team & partners</a>
   </li>
-  <li><a class="scrollTo"  href="#">Main Activities</a>
+  <li><a href="#" data-value="main-act">Main Activities</a>
     <ul>
-      <li><a class="scrollTo"  href="#"></a></li>
-      <li><a class="scrollTo"  href="#"></a></li>
+      <li><a href="#" data-value=""></a></li>
+      <li><a href="#" data-value=""></a></li>
     </ul>
   </li>
-  <li><a class="scrollTo"  href="#">Contact</a>
+  <li><a href="#" data-value="contact">Contact</a>
     <ul>
-      <li><a class="scrollTo" href="#">Details</a></li>
-      <li><a class="scrollTo"  href="#">Ask me a Question</a></li>
+      <li><a href="#" data-value="">Details</a></li>
+      <li><a href="#" data-value="">Ask me a Question</a></li>
     </ul>
   </li>
-  <li><a class="scrollTo"  href="#">Testimonial </a>
+  <li><a href="#" data-value="testi-m">Testimonial </a>
     <ul>
-      <li><a class="scrollTo"  href="#">Testimonial video</a></li>
-      <li><a href="#">Testimonial text </a></li>
+      <li><a href="#" data-value="">Testimonial video</a></li>
+      <li><a href="#" data-value="">Testimonial text </a></li>
     </ul>
   </li>
 </ul>
@@ -64,7 +64,7 @@
       <h1>About Konexio</h1>
       <p> – a few paragraphs on objectives of the organization</p>
       <h1>Our Mission</h1>
-      <p id="our-mission">
+      <p>
        With the recent migrant crisis impacting Europe and the world on an unprecedented scale, our mission is to contribute to the process of integration of refugees into these communities through innovation and technology.
        Refugees face a number of tough challenges once their asylum status has been obtained, but one of the most critical and most burdensome problems for European nations medium to longer term will be that of economic integration through job opportunity.
        Our organization aims to tackle this by providing refugees with opportunities to learn and connect with through code.
@@ -73,7 +73,7 @@
     <hr>
       <!--End Introduction page -->
       <!--Start Main Activities page -->
-      <div class="main-act">
+      <div id="main-act" class="main-act">
         <div class="act-overlay">
           <div class="container">
             <h1 align="center">Main Activities</h1>
@@ -107,44 +107,45 @@
       </div>
       <!--End Main Activities page -->
       <!--Start Tean & partners page -->
-      <section>
+      <div id="team" class="container">
         <h1 align="center">Team & Partners</h1>
-        <div class="container">
-          <div class="row-fluid">
-              <h3 align="center">Team</h3>
-          <div class="col-xs-3" id="team">
-            <img src="images/Jean.jpg" alt="Jean" width="100" height="100" />
+        <div class="row-fluid">
+            <h2 align="center">Team</h2>
+          <div class="col-xs-3">
+              <img src="images/Jean.jpg" alt="Jean"/>
               <h4> Jean Guo</h4>
               <p class="text-left">
             With a background in economics, public health, and policy, Jean is passionate about improving and addressing disparities with regard to equal opportunity. She developed the idea for the project through conversations with the refugee community, which made her realize their lack of access to professional
               </p>
-            <a href="#"><i class="fa fa-facebook-square fa-3x"></i></a>
-            <a href="#"><i class="fa fa-linkedin-square fa-3x"></i></a>
-            <a href="#"><i class="fa fa-twitter-square fa-3x"></i></a>
+              <a href="#"><i class="fa fa-facebook-square fa-3x"></i></a>
+              <a href="#"><i class="fa fa-linkedin-square fa-3x"></i></a>
+              <a href="#"><i class="fa fa-twitter-square fa-3x"></i></a>
           </div>
           <div class="col-xs-3">
-            <img src="images/mardi.jpg" alt="Jean"  width="100" height="100" />
+              <img src="images/mardi.jpg" alt="Jean" />
             <h4>Elmardi</h4>
             <a href="#"><i class="fa fa-github-square fa-3x"></i></a>
             <a href="#"><i class="fa fa-linkedin-square fa-3x"></i></a>
             <a href="#"><i class="fa fa-twitter-square fa-3x"></i></a>
           </div>
           <div class="col-xs-3">
-            <img src="images/mio.jpg" alt="Suliman"  width="100" height="100"/>
+              <img src="images/mio.jpg" alt="Suliman"/>
             <p></p>
             <h4>Suliman</h4>
-            <a  class="scrollTo" href="#"><i class="fa fa-linkedin-square fa-3x"></i></a>
+            <a href="#"><i class="fa fa-linkedin-square fa-3x"></i></a>
           </div>
-            <div class="col-xs-3" id="partners">
-              <h3 align="center">Partners</h3>
-              <img src="images/singa.png" alt="SINGA" class="img-responsive center-block"  width="200" height="200"/>
-              <img src="images/picoulet.jpg" alt="" class="img-responsive center-block"  width="200" height="200"/>
-              <img src="images/simp.png" alt="Simplon" class="img-responsive center-block" width="200" height="200" />
-            </div>
+          <h2 align="center">Partners</h2>
+          <div class="col-xs-3">
+            <img src="images/singa.png" alt="SINGA" class="img-responsive center-block" />
+            <img src="images/picoulet.jpg" alt="" class="img-responsive center-block" />
+            <img src="images/simp.png" alt="Simplon" class="img-responsive center-block" />
           </div>
         </div>
-      </section>
-      <!--End Team & partners  page -->
+      </div>
+      <div id="go-top">
+    <i class="fa fa-chevron-up fa-3x"></i>
+      </div>
+      <!--Start Tean & partners page -->
       <hr>
       <!--Start Contact Us  page -->
       <div class="container" id="contact">
@@ -159,7 +160,7 @@
       <!--End Contact Us  page -->
       <!--Start media Contact  page -->
       <!--/*  Start Testimonials page */-->
-      <div class="testim">
+      <div id="testi-m" class="testim">
       <div class="te-overlay">
         <div class="container">
           <h2><u>What say our learners</u></h2>
@@ -189,7 +190,7 @@
       </div>
       </div>
     <!--  /*  End  Testimonial page  */-->
-      <div class="media">
+      <div id="media" class="media">
         <a href="#"><i class="fa fa-facebook-square fa-4x"></i></a>
         <a href="#"><i class="fa fa-linkedin-square fa-4x"></i></a>
         <a href="#"><i class="fa fa-twitter-square fa-4x"></i></a>
