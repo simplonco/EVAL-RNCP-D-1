@@ -9,12 +9,12 @@ $(function () {
   (function AutoSlider() {
     $('.slid .act').each(function () {
       if (!$(this).is(':last-child')){
-      $(this).fadeOut(10000,function () {
+      $(this).fadeOut(2000,function () {
          $(this).removeClass('act').next().addClass('act').fadeIn();
          AutoSlider();
       });
     }else {
-      $(this).fadeOut(10000,function () {
+      $(this).fadeOut(1000,function () {
          $(this).removeClass('act');
       $('.slid div').eq(0).addClass('act').fadeIn();
        AutoSlider();

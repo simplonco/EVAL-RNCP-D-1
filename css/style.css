@@ -7,7 +7,7 @@
 
 /*  Start  container-fluid  */
 .container-fluid{
-  color: #9900ff;
+  color: #FFF;
   height: 570px;
   background-image: url(../images/backg.jpg);
   background-repeat: no-repeat;
@@ -15,28 +15,6 @@
   overflow: hidden;
 }
 /*  End  container-fluid  */
-
-/*  Start container  */
-.container{
-}
-.container h1 h2 h3 h4 h5 h5{
-  padding-top: 15px
-  padding-bottom: 10px;
-}
-.container p{
-padding-bottom: 12px;
-margin: 12px;
-font-size: 16px
-}
-.container img{
-  padding-top: 15px
-  padding-bottom: 10px;
-}
-.container i{
-  width: 60px;
-  height: 80px;
-}
-/*  End  container  */
 /*  Start  our main lists  */
 ul {list-style: none;
   padding: 0px;
@@ -59,27 +37,25 @@ color: #fff;}
  li:hover li a:hover {background: #4da6ff;}
  #drop-nav li ul li {border-top: 0px;}
  /*  End  our main lists  */
- /*  Start  our team  */
-.row-fluid{
-  height: 600px;
-}
-.row-fluid img{
-  height: 50px;
-  width: 40px;
-  border-radius: 55%;
-  float: left;
-}
-.row-fluid p{
-float: right;
-}
-.row-fluid{
 
-}
-  /*  End  our team  */
+ /*  Start about  */
+ .about{
+   background-color: #ccccff;
+   color: #000;
+   margin-top: 20px;
+ }
+ .about h1{
+   margin-bottom: 20px;
+ font-size: 40px;
+ text-align: center;
+ }
+ .about p{
+ font-size: 20px;
+ }
+ /*  End  about  */
  /*  Start  main-act  */
  .main-act{
-   background-color:  #e6f5ff;
-   height: 400px;
+   background-color: #ccccff;
    position: relative;
    text-align: center;
    padding: 40px 0;
@@ -87,10 +63,11 @@ float: right;
  }
  .main-act  h3{
    font-size: 30px;
-   text-align: left;
+   text-align: center;
  }
  .main-act  h1{
-   font-size: 60px;
+   font-size: 40px;
+   margin-bottom: 20px;
    text-align: center;
  }
  .main-act .slid{
@@ -98,12 +75,13 @@ float: right;
    padding-top: 10px;
    margin-top: 12px;
    width: 110%;
-   height: 400px
+
  }
  .main-act img{
    background-color:#e6f5ff;
    padding-top: 20px;
    margin-top: 10px;
+   margin-bottom: 30px;
    width: 100%;
    height: 400px
  }
@@ -122,6 +100,48 @@ float: right;
    height: 100%;
  }
  /*  End  main-act  */
+ /*!--Start Tean  page --*/
+ .our-team{
+   /*background-color: #85a3e0;/*/
+   background-image: url(../images/btm.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+ .our-team .team{
+   color: #FFF;
+   background-color: rgba(2,2,2, 0.7);
+   padding-top: 40px;
+   padding-bottom: 40px;
+ }
+ .our-team h1{
+   margin-bottom: 50px;
+ }
+ .our-team .perso-info{
+   margin-bottom: 40px;
+ }
+ /*!--End Team  page --*/
+
+ /*!--Start Partners  page --*/
+ .our-partners{
+   background-image: url(../images/team.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+ .our-partners h1{
+   text-align: center;
+     margin-bottom: 50px;
+ }
+ .our-partners .Partners{
+   color: #FFF;
+   background-color: rgba(2,2,2, 0.5);
+   padding-top: 40px;
+   padding-bottom: 40px;
+ }
+
+ /*!--End TPartners  page --*/
+
+  /*  End  our team  */
+
 /*  Start  Testim  */
 .testim{
   background-image: url(../images/ke.jpg);
@@ -193,6 +213,21 @@ border-radius: 55%;
 }
 
 /*  End  our scroll buttom  */
+/*  Start  contact  */
+.conta{
+background-color: #9999ff;
+  color:#000;
+  text-align: center;
+  right: 15px;
+  bottom: 8px;
+  z-index: 9999;
+}
+.conta h3{
+  text-align: center;
+  margin-bottom: 20px;
+}
+/*  End  contact  */
+
 /*  Start  our main lists  */
 /*  End  our main lists  */
 /*  Start  media  */
