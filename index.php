@@ -34,12 +34,11 @@
   <li><a href="#" data-value="">Inroduction
     <ul>
       <li><a href="#" data-value="About">About Konexio</a></li>
-      <li><a href="#" data-value="About">Our Mission</a></li>
+      <li><a href="#" data-value="our-mission">Our Mission</a></li>
     </ul>
   </a></li>
   <li><a href="#" data-value="team">Team</a>
     <ul>
-      <li><a href="#" data-value=""></a></li>
       <li><a href="#" data-value="our-partners">partners</a></li>
     </ul>
   </li>
@@ -61,15 +60,21 @@
     </div>
     <!--End list page -->
       <!--Start Inroduction  page -->
-    <div  id="About" class="container">
-      <h1>About Konexio</h1>
-      <p> – a few paragraphs on objectives of the organization</p>
-      <h1>Our Mission</h1>
-      <p>
-       With the recent migrant crisis impacting Europe and the world on an unprecedented scale, our mission is to contribute to the process of integration of refugees into these communities through innovation and technology.
-       Refugees face a number of tough challenges once their asylum status has been obtained, but one of the most critical and most burdensome problems for European nations medium to longer term will be that of economic integration through job opportunity.
-       Our organization aims to tackle this by providing refugees with opportunities to learn and connect with through code.
-      </p>
+    <div class="about">
+      <div  class="container">
+        <h1 id="About">About Konexio</h1>
+        <p>
+         With the recent migrant crisis impacting Europe and the world on an unprecedented scale, our mission is to contribute to the process of integration of refugees into these communities through innovation and technology.
+         Refugees face a number of tough challenges once their asylum status has been obtained, but one of the most critical and most burdensome problems for European nations medium to longer term will be that of economic integration through job opportunity.
+         Our organization aims to tackle this by providing refugees with opportunities to learn and connect with through code.
+        </p>
+        <h1 id="our-mission">Our Mission</h1>
+        <p>
+         With the recent migrant crisis impacting Europe and the world on an unprecedented scale, our mission is to contribute to the process of integration of refugees into these communities through innovation and technology.
+         Refugees face a number of tough challenges once their asylum status has been obtained, but one of the most critical and most burdensome problems for European nations medium to longer term will be that of economic integration through job opportunity.
+         Our organization aims to tackle this by providing refugees with opportunities to learn and connect with through code.
+        </p>
+      </div>
     </div>
     <hr>
       <!--End Introduction page -->
@@ -219,20 +224,23 @@
         </div>
       </section>
       <!--End partners  page -->
+        <!--Start button scrollButtom -->
       <div id="go-top">
     <i class="fa fa-chevron-up fa-3x"></i>
       </div>
-      <!--Start Tean & partners page -->
+        <!--End Button scrollButtom -->
       <hr>
       <!--Start Contact Us  page -->
-      <div class="container" id="contact">
-        <h3>Contact Us</h3>
-        <form class="form-group">
-          <input type="text" name="name" value="" placeholder="write your name"><br>
-          <input type="email" name="email" value="" placeholder="write your E-mail"><br>
-          <textarea name="leave your message" rows="8" cols="40"></textarea><br>
-          <input type="submit" name="name" value="send">
-        </form>
+      <div class="conta">
+        <div class="container" id="contact">
+          <h3>Contact Us</h3>
+          <form class="form-group">
+            <input type="text" name="name" value="" placeholder="write your name"><br>
+            <input type="email" name="email" value="" placeholder="write your E-mail"><br>
+            <textarea name="leave your message" rows="8" cols="40"></textarea><br>
+            <input type="submit" name="name" value="send">
+          </form>
+        </div>
       </div>
       <!--End Contact Us  page -->
       <!--Start media Contact  page -->
