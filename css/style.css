@@ -180,6 +180,8 @@ border-radius: 55%;
   bottom: 8px;
   position: fixed;
   z-index: 9999;
+  display: none;
+  cursor: pointer;
 }
 #go-top:hover {
   background-color:#8000ff;

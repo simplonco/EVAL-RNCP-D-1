@@ -47,6 +47,7 @@ border-radius: 55%;
   position: fixed;
   z-index: 9999;
 display: none;
+cursor: pointer;
 }
 #go-top:hover {
   background-color:#8000ff;

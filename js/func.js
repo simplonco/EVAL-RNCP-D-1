@@ -41,4 +41,21 @@ $(function () {
     }
     });
   }());
+  //Check to see if the window is top if not then display button
+    var scrollButtom = $('#go-top');
+    $(window).scroll(function() {
+
+  if ($(this).scrollTop() >= 700) {
+    scrollButtom.show();
+  }else {
+    scrollButtom.hide();
+  }
+  //click button to scroll Top
+  scrollButtom.click(function () {
+    $('html, body').animate({
+      scrollTop:0
+    },700);
+  });
+    });
+
 });
