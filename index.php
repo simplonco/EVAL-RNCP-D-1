@@ -36,13 +36,13 @@
       <li><a href="#" data-value="About">Our Mission</a></li>
     </ul>
   </a></li>
-  <li><a href="#" data-value="team">Team & partners</a>
-  </li>
-  <li><a href="#" data-value="main-act">Main Activities</a>
+  <li><a href="#" data-value="team">Team</a>
     <ul>
       <li><a href="#" data-value=""></a></li>
-      <li><a href="#" data-value=""></a></li>
+      <li><a href="#" data-value="our-partners">partners</a></li>
     </ul>
+  </li>
+  <li><a href="#" data-value="main-act">Main Activities</a>
   </li>
   <li><a href="#" data-value="contact">Contact</a>
     <ul>
@@ -106,42 +106,117 @@
         </div>
       </div>
       <!--End Main Activities page -->
-      <!--Start Tean & partners page -->
-      <div id="team" class="container">
-        <h1 align="center">Team & Partners</h1>
-        <div class="row-fluid">
-            <h2 align="center">Team</h2>
-          <div class="col-xs-3">
-              <img src="images/Jean.jpg" alt="Jean"/>
-              <h4> Jean Guo</h4>
-              <p class="text-left">
-            With a background in economics, public health, and policy, Jean is passionate about improving and addressing disparities with regard to equal opportunity. She developed the idea for the project through conversations with the refugee community, which made her realize their lack of access to professional
-              </p>
-              <a href="#"><i class="fa fa-facebook-square fa-3x"></i></a>
-              <a href="#"><i class="fa fa-linkedin-square fa-3x"></i></a>
-              <a href="#"><i class="fa fa-twitter-square fa-3x"></i></a>
-          </div>
-          <div class="col-xs-3">
-              <img src="images/mardi.jpg" alt="Jean" />
-            <h4>Elmardi</h4>
-            <a href="#"><i class="fa fa-github-square fa-3x"></i></a>
-            <a href="#"><i class="fa fa-linkedin-square fa-3x"></i></a>
-            <a href="#"><i class="fa fa-twitter-square fa-3x"></i></a>
-          </div>
-          <div class="col-xs-3">
-              <img src="images/mio.jpg" alt="Suliman"/>
-            <p></p>
-            <h4>Suliman</h4>
-            <a href="#"><i class="fa fa-linkedin-square fa-3x"></i></a>
-          </div>
-          <h2 align="center">Partners</h2>
-          <div class="col-xs-3">
-            <img src="images/singa.png" alt="SINGA" class="img-responsive center-block" />
-            <img src="images/picoulet.jpg" alt="" class="img-responsive center-block" />
-            <img src="images/simp.png" alt="Simplon" class="img-responsive center-block" />
+      <!--Start Tean page -->
+      <section class="our-team text-center">
+        <div class="team">
+          <div id="team" class="container">
+            <h1>Team</h1>
+            <div class="row">
+              <div class="col-xs-4">
+                <div class="perso-info">
+                  <img class="img-circle" src="images/Jean.jpg" alt="Jean" width="150" height="150"/>
+                  <h4> Jean Guo</h4>
+                  <p>
+                With a background in economics, public health, and policy, Jean is passionate about improving and addressing disparities with regard to equal opportunity. She developed the idea for the project through conversations with the refugee community, which made her realize their lack of access to professional
+                  </p>
+                  <a href="#"><i class="fa fa-facebook-square fa-3x"></i></a>
+                  <a href="#"><i class="fa fa-linkedin-square fa-3x"></i></a>
+                  <a href="#"><i class="fa fa-twitter-square fa-3x"></i></a>
+                </div>
+              </div>
+              <div class="col-xs-4">
+                <div class="perso-info">
+                  <img class="img-circle" src="images/mardi.jpg" alt="Elmardi"  width="150" height="150"/>
+                  <h4> Elmardi YAHIA</h4>
+                  <p>
+                    Developer web php experiences and skills technics in programming languages with an enough background about computer networks
+                  </p>
+                  <a href="#"><i class="fa fa-github-square fa-3x"></i></a>
+                  <a href="#"><i class="fa fa-linkedin-square fa-3x"></i></a>
+                  <a href="#"><i class="fa fa-twitter-square fa-3x"></i></a>
+                </div>
+              </div>
+              <div class="col-xs-4">
+                <div class="perso-info">
+                  <img class="img-circle" src="images/mio.jpg" alt="Suliman"  width="150" height="150"/>
+                  <h4> Suliman ABDU</h4>
+                  <p>
+                    Developer web php experiences and skills technics in programming languages with background about IT (information technology)
+                  </p>
+                  <a href="#"><i class="fa fa-github-square fa-3x"></i></a>
+                  <a href="#"><i class="fa fa-linkedin-square fa-3x"></i></a>
+                  <a href="#"><i class="fa fa-twitter-square fa-3x"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-4">
+                <div class="perso-info">
+                  <img class="img-circle" src="images/Jean.jpg" alt="Jean"  width="150" height="150"/>
+                  <h4> Jean Guo</h4>
+                  <p>
+                With a background in economics, public health, and policy, Jean is passionate about improving and addressing disparities with regard to equal opportunity. She developed the idea for the project through conversations with the refugee community, which made her realize their lack of access to professional
+                  </p>
+                  <a href="#"><i class="fa fa-facebook-square fa-3x"></i></a>
+                  <a href="#"><i class="fa fa-linkedin-square fa-3x"></i></a>
+                  <a href="#"><i class="fa fa-twitter-square fa-3x"></i></a>
+                </div>
+              </div>
+              <div class="col-xs-4">
+                <div class="perso-info">
+                  <img class="img-circle" src="images/Jean.jpg" alt="Jean" width="150" height="150"/>
+                  <h4> Jean Guo</h4>
+                  <p>
+                With a background in economics, public health, and policy, Jean is passionate about improving and addressing disparities with regard to equal opportunity. She developed the idea for the project through conversations with the refugee community, which made her realize their lack of access to professional
+                  </p>
+                  <a href="#"><i class="fa fa-facebook-square fa-3x"></i></a>
+                  <a href="#"><i class="fa fa-linkedin-square fa-3x"></i></a>
+                  <a href="#"><i class="fa fa-twitter-square fa-3x"></i></a>
+                </div>
+              </div>
+              <div class="col-xs-4">
+                <div class="perso-info">
+                  <img class="img-circle" src="images/Jean.jpg" alt="Jean" width="150" height="150"/>
+                  <h4> Jean Guo</h4>
+                  <p>
+                With a background in economics, public health, and policy, Jean is passionate about improving and addressing disparities with regard to equal opportunity. She developed the idea for the project through conversations with the refugee community, which made her realize their lack of access to professional
+                  </p>
+                  <a href="#"><i class="fa fa-facebook-square fa-3x"></i></a>
+                  <a href="#"><i class="fa fa-linkedin-square fa-3x"></i></a>
+                  <a href="#"><i class="fa fa-twitter-square fa-3x"></i></a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
+      <!--End Team   page -->
+      <!--Start partners page -->
+      <section class="our-partners">
+        <div class="Partners">
+          <div id="our-partners" class="container">
+            <h1>Partners</h1>
+            <div class="row">
+              <div class="col-xs-4">
+                <div class="par-img">
+                  <img src="images/singa.png" alt="SINGA" width="300" height="300" />
+                </div>
+              </div>
+              <div class="col-xs-4">
+                <div class="par-img">
+                  <img src="images/simp.png" alt="Simplon" width="300" height="300" />
+                </div>
+              </div>
+              <div class="col-xs-4">
+                <div class="par-img">
+                  <img src="images/picoulet.jpg" alt="" width="300" height="300"/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--End partners  page -->
       <div id="go-top">
     <i class="fa fa-chevron-up fa-3x"></i>
       </div>
