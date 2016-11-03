@@ -29,6 +29,7 @@
     <!--Start list  page -->
     <div class="container">
       <ul class="links">
+      <li><a href="article.php">Articles</a></li>
   <li><a href="#" data-value="">Inroduction
     <ul>
       <li><a href="#" data-value="About">About Konexio</a></li>
@@ -156,10 +157,11 @@
             <div class="row">
               <div class="col-xs-4">
                 <div class="perso-info">
-                  <img class="img-circle" src="images/Jean.jpg" alt="Jean"  width="150" height="150"/>
-                  <h4> Jean Guo</h4>
+                  <img class="img-circle" src="images/dustin.png" alt="Jean"  width="150" height="150"/>
+                  <h4> Dustin Coates</h4>
                   <p>
-                With a background in economics, public health, and policy, Jean is passionate about improving and addressing disparities with regard to equal opportunity. She developed the idea for the project through conversations with the refugee community, which made her realize their lack of access to professional
+                   Dustin is a software engineer and web development instructor. He's taught hundreds of non-technical students 
+                   technical topics on web development. From Texas, he now lives in Paris.
                   </p>
                   <a href="#"><i class="fa fa-facebook-square fa-3x"></i></a>
                   <a href="#"><i class="fa fa-linkedin-square fa-3x"></i></a>
@@ -168,11 +170,11 @@
               </div>
               <div class="col-xs-4">
                 <div class="perso-info">
-                  <img class="img-circle" src="images/Jean.jpg" alt="Jean" width="150" height="150"/>
-                  <h4> Jean Guo</h4>
+                  <img class="img-circle" src="images/elisa.png" alt="Jean" width="150" height="150"/>
+                  <h4> Elisabeth Hansen</h4>
                   <p>
-                With a background in economics, public health, and policy, Jean is passionate about improving and addressing disparities with regard to equal opportunity. She developed the idea for the project through conversations with the refugee community, which made her realize their lack of access to professional
-                  </p>
+                   While currently studying microbiology, Elisabeth's interests are far-reaching. She enjoys coding and meeting new people, and seeks to be involved in her community and to extend educational opportunities to those everyone. She is fluent in English and French. In her free time, she enjoys dancing, jogging, and painting.
+                          </p>
                   <a href="#"><i class="fa fa-facebook-square fa-3x"></i></a>
                   <a href="#"><i class="fa fa-linkedin-square fa-3x"></i></a>
                   <a href="#"><i class="fa fa-twitter-square fa-3x"></i></a>
@@ -180,10 +182,10 @@
               </div>
               <div class="col-xs-4">
                 <div class="perso-info">
-                  <img class="img-circle" src="images/Jean.jpg" alt="Jean" width="150" height="150"/>
-                  <h4> Jean Guo</h4>
+                  <img class="img-circle" src="images/megan.png" alt="Jean" width="150" height="150"/>
+                  <h4> Megan Angell</h4>
                   <p>
-                With a background in economics, public health, and policy, Jean is passionate about improving and addressing disparities with regard to equal opportunity. She developed the idea for the project through conversations with the refugee community, which made her realize their lack of access to professional
+                  Megan has a background in economics, mathematics, and Italian and is interested in the ways in which public policy and nonprofit organizations can benefit economic well-being. She has experience in HTML/CSS coding and programming for statistical analysis. In her free time, she loves reading, traveling, and exploring the outdoors.
                   </p>
                   <a href="#"><i class="fa fa-facebook-square fa-3x"></i></a>
                   <a href="#"><i class="fa fa-linkedin-square fa-3x"></i></a>
