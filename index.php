@@ -27,31 +27,27 @@
     </div>
       <!--End first page -->
     <!--Start list  page -->
-    <div class="container">
-      <ul class="links">
+     <nav class="navbar navbar-inverse">
+  <div class="container links">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
       <li><a href="article.php">Articles</a></li>
-  <li><a href="#" data-value="">About Konexio</a></li>
-  <li><a href="#" data-value="team">Team</a>
-    <ul>
-      <li><a href="#" data-value="our-partners">partners</a></li>
-    </ul>
+      <li><a href="add_article.php">Add articles</a></li>
+      <li><a href="#" data-value="">About Konexio</a></li>
+      <li><a href="#" data-value="team">Team & partners</a>
   </li>
   <li><a href="#" data-value="main-act">Main Activities</a>
   </li>
-  <li><a href="#" data-value="contact">Contact</a>
-    <ul>
-      <li><a href="#" data-value="">Details</a></li>
-      <li><a href="#" data-value="">Ask me a Question</a></li>
-    </ul>
+    <li><a href="#" data-value="contact">Contact</a>
   </li>
   <li><a href="#" data-value="testi-m">Testimonial </a>
-    <ul>
-      <li><a href="#" data-value="">Testimonial video</a></li>
-      <li><a href="#" data-value="">Testimonial text </a></li>
-    </ul>
   </li>
-</ul>
-    </div>
+  </ul>
+  </div>
+</nav>
     <!--End list page -->
       <!--Start Inroduction  page -->
     <div class="about">
