@@ -23,7 +23,8 @@
           <div class="row">
             <div class="col-xs-4">
               <div class="perso-info">
-                <img class="img-circle" src="images/Jean.jpg" alt="Jean" width="150" height="150"/>
+                <div class="imgCircle imgJean"></div>
+                <!--<img class="img-circle" src="images/Jean.jpg" alt="Jean" width="150" height="150"/>-->
                 <h4> Jean Guo</h4>
                 <p>
               With a background in economics, public health, and policy, Jean is passionate about improving and addressing disparities with regard to equal opportunity. She developed the idea for the project through conversations with the refugee community, which made her realize their lack of access to professional

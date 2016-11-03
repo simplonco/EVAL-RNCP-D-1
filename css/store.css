@@ -96,3 +96,24 @@ cursor: pointer;
 }
 
 /*!--End TPartners  page --*/
+
+/* Imgs div */
+.imgCircle{
+  width: 150px;
+  height:150px;
+  margin:auto;
+  border-radius: 50%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.imgJean{
+  background-image: url(../images/Jean.jpg);
+}
+.imgMardi{
+
+}
+.imgSuliman{
+
+}

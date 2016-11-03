@@ -1,7 +1,6 @@
 
 <?php
 
-
  ?>
 <!DOCTYPE html>
 <html>
@@ -111,7 +110,7 @@
         </div>
       </div>
       <!--End Main Activities page -->
-      <!--Start Tean page -->
+      <!--Start Team page -->
       <section class="our-team text-center">
         <div class="team">
           <div id="team" class="container">
@@ -232,10 +231,10 @@
       <div class="conta">
         <div class="container" id="contact">
           <h3>Contact Us</h3>
-          <form class="form-group">
+          <form action="index.php" method="post" class="form-group">
             <input type="text" name="name" value="" placeholder="write your name"><br>
             <input type="email" name="email" value="" placeholder="write your E-mail"><br>
-            <textarea name="leave your message" rows="8" cols="40"></textarea><br>
+            <textarea name="message" rows="8" cols="40"></textarea><br>
             <input type="submit" name="name" value="send">
           </form>
         </div>
