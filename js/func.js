@@ -14,7 +14,7 @@ $(function () {
          AutoSlider();
       });
     }else {
-      $(this).fadeOut(2000,function () {
+      $(this).fadeOut(500,function () {
          $(this).removeClass('act');
       $('.slid div').eq(0).addClass('act').fadeIn();
        AutoSlider();

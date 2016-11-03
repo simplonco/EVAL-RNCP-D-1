@@ -30,12 +30,7 @@
     <div class="container">
       <ul class="links">
       <li><a href="article.php">Articles</a></li>
-  <li><a href="#" data-value="">Inroduction
-    <ul>
-      <li><a href="#" data-value="About">About Konexio</a></li>
-      <li><a href="#" data-value="our-mission">Our Mission</a></li>
-    </ul>
-  </a></li>
+  <li><a href="#" data-value="">About Konexio</a></li>
   <li><a href="#" data-value="team">Team</a>
     <ul>
       <li><a href="#" data-value="our-partners">partners</a></li>
@@ -61,17 +56,18 @@
       <!--Start Inroduction  page -->
     <div class="about">
       <div  class="container">
-        <h1 id="About">About Konexio</h1>
-        <p>
-         With the recent migrant crisis impacting Europe and the world on an unprecedented scale, our mission is to contribute to the process of integration of refugees into these communities through innovation and technology.
-         Refugees face a number of tough challenges once their asylum status has been obtained, but one of the most critical and most burdensome problems for European nations medium to longer term will be that of economic integration through job opportunity.
-         Our organization aims to tackle this by providing refugees with opportunities to learn and connect with through code.
-        </p>
         <h1 id="our-mission">Our Mission</h1>
         <p>
          With the recent migrant crisis impacting Europe and the world on an unprecedented scale, our mission is to contribute to the process of integration of refugees into these communities through innovation and technology.
          Refugees face a number of tough challenges once their asylum status has been obtained, but one of the most critical and most burdensome problems for European nations medium to longer term will be that of economic integration through job opportunity.
          Our organization aims to tackle this by providing refugees with opportunities to learn and connect with through code.
+        </p>
+        <h4>The objectives of our organization are as follows</h4>
+        <p>
+        <li>Teach fundamental concepts of web development through easy, interactive methods and online platforms</li>
+        <li>Empower our participants with professional opportunities</li>
+        <li>Build a supportive community of individuals passionate about code and engaged in the tech community</li>
+          
         </p>
       </div>
     </div>
@@ -86,7 +82,7 @@
             <p>
             We give free regular workshops several evenings per week for 4-6 week sessions.
               The sessions start with basic concepts of web development—moving from HTML and CSS to Javascript and beyond, and make use of interactive online platforms and exercises adapted for participants of all backgrounds and learning abilities.
-          Interested in learning more about to participate in these workshops? Please fill out the questionnaire (this is a link to a google form) in the link provided <a href="#">here</a>, and we will follow up with you for more details!
+          Interested in learning more about to participate in these workshops? Please fill out the questionnaire (this is a link to a google form) in the link provided <a href="#">here</a>, and we Whilel follow up with you for more details!
             </p>
           <div class="slid">
             <div class="act">
@@ -203,19 +199,24 @@
           <div id="our-partners" class="container">
             <h1>Partners</h1>
             <div class="row">
-              <div class="col-xs-4">
+              <div class="col-xs-3">
                 <div class="par-img">
                   <img src="images/singa.png" alt="SINGA" width="300" height="300" />
                 </div>
               </div>
-              <div class="col-xs-4">
+              <div class="col-xs-3">
+                <div class="par-img">
+                  <img src="images/picoulet.jpg" alt="" width="300" height="300"/>
+                </div>
+              </div>
+              <div class="col-xs-3">
                 <div class="par-img">
                   <img src="images/simp.png" alt="Simplon" width="300" height="300" />
                 </div>
               </div>
-              <div class="col-xs-4">
+               <div class="col-xs-3">
                 <div class="par-img">
-                  <img src="images/picoulet.jpg" alt="" width="300" height="300"/>
+                  <img src="images/im.png" alt="" width="300" height="300"/>
                 </div>
               </div>
             </div>
@@ -254,20 +255,25 @@
             <p>Elmardi</p>
           </div>
           <div>
-            <q cite="Elmardi">This really great idea to this kind of project that help peoples to discover the coding in simple way!</q><br>
-            <p>Elmardi</p>
+            <q cite="Elmardi"> Avant tout, mille et un mercis pour tout ce travail. Il y a de la volonté et de l'enthousi-asme d'aider et de partager le savoir. J'ai beaucoup appris sur les cours dispensés dans ces ateliers; et j'avoue que cela me sera utile pour la vie ! </q><br>
           </div>
           <div>
-            <q cite="Elmardi">This really great idea to this kind of project that help peoples to discover the coding in simple way!</q><br>
-            <p>Elmardi</p>
+            <q cite="Elmardi">Ils m'ont aidé à découvrir le code et les nombreuses opportunités </q><br>
           </div>
           <div>
-            <q cite="Elmardi">This really great idea to this kind of project that help peoples to discover the coding in simple way!</q><br>
-            <p>Elmardi</p>
+            <q cite="Elmardi">These workshops have helped me to get deeper insight into web development </q><br>
           </div>
           <div>
-            <q cite="Elmardi">This really great idea to this kind of project that help peoples to discover the coding in simple way!</q><br>
-            <p>Elmardi</p>
+            <q cite="Elmardi"> Initier et aimer le code pour en faire une base pour créer un site a impact social </q><br>
+          </div>
+          <div>
+            <q cite="Elmardi">Initier et aimer le code pour en faire une base pour créer un site a impact social </q><br>
+          </div>
+          <div>
+            <q cite="Elmardi">Nous espérons avoir une continuité du programme, car nous espérons ne pas nous arrêter à 10 « séances. Nous avons soif d'apprendre et rattraper notre retard</q><br>
+          </div>
+          <div>
+            <q cite="Elmardi"> It was a very good method that [helped] me [to] learn coding, which before I didn’t dare to do by my own. I would like to thank everyone who participated in making this workshop possible especially Dustin, Jean and Larissa</q><br>
           </div>
         </div>
         </div>
