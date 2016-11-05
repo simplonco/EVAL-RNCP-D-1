@@ -6,37 +6,16 @@
 /*  End  our main lists  */
 
 /*  Start  container-fluid  */
-.container-fluid{
+.cont{
   color: #FFF;
   height: 570px;
-  background-image: url(../images/backg.jpg);
+  background-image: url(../images/cods.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
 }
 /*  End  container-fluid  */
-/*  Start  our main lists  */
-ul {list-style: none;
-  padding: 0px;
-   margin: 10px auto;}
- ul li {display: block;
-   position: relative;
-   float: left;border:1px solid #000}
- li ul {display: none;}
- ul li a {display: block;
-   background: #668cff;
-   padding: 5px 10px 5px 10px;
-   text-decoration: none;
-  white-space: nowrap;
-color: #fff;}
- ul li a:hover {background: #94b8b8;}
- li:hover ul {display: block;
-    position: absolute;}
- li:hover li {float: none;}
- li:hover a {background: #4dffff;}
- li:hover li a:hover {background: #4da6ff;}
- #drop-nav li ul li {border-top: 0px;}
- /*  End  our main lists  */
+
 
  /*  Start about  */
  .about{
@@ -237,3 +216,7 @@ background-color: #9999ff;
 font-size: 40px;
 }
 /*  End media  */
+footer{
+  background-color: rgb(55, 58, 60);
+  color: rgb(172, 48, 47);
+}

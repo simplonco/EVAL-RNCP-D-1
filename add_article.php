@@ -13,59 +13,27 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" rel="stylesheet">
     <link href="path/to/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/article.css">
     <link href="bootstrap3-wysihtml5.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./material.min.css">
       <script src="./material.min.js"></script>
 
-    <style type="text/css">
-      body{
-        margin: 50px;
-        background-image: url(Photos/codd.jpg);      }
-        h1{
-          color:rgb(152, 210, 250);
-        }
-        h5{
-          color:rgb(152, 210, 250);
-        }
-    </style>
-   
   </head>
   <body>
     
-    <!--Start list  page -->
-    <div class="container">
-      <ul class="links">
-      <li><a href="add_article.php">Add articles</a></li>
-      <li><a href="article.php">Articles</a></li>
-  <li><a href="#" data-value="">Inroduction
-    <ul>
-      <li><a href="#" data-value="About">About Konexio</a></li>
-      <li><a href="#" data-value="About">Our Mission</a></li>
-    </ul>
-  </a></li>
-  <li><a href="#" data-value="team">Team</a>
-    <ul>
-      <li><a href="#" data-value=""></a></li>
-      <li><a href="#" data-value="our-partners">partners</a></li>
-    </ul>
-  </li>
-  <li><a href="#" data-value="main-act">Main Activities</a>
-  </li>
-  <li><a href="#" data-value="contact">Contact</a>
-    <ul>
-      <li><a href="#" data-value="">Details</a></li>
-      <li><a href="#" data-value="">Ask me a Question</a></li>
-    </ul>
-  </li>
-  <li><a href="#" data-value="testi-m">Testimonial </a>
-    <ul>
-      <li><a href="#" data-value="">Testimonial video</a></li>
-      <li><a href="#" data-value="">Testimonial text </a></li>
-    </ul>
-  </li>
-</ul>
+   <!--Start list  page -->
+    <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.php">Konexio</a>
     </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="index_admin.php">Home</a></li>
+      <li><a href="article_admin.php">Articles</a></li>
+      <li><a href="add_article.php">Add articles</a></li>
+  </ul>
+  </div>
+</nav>
     <!--End list page -->
     <h1>Add new article</h1>
     <article>
@@ -88,8 +56,8 @@
       ?>
 
     <form method="post">
-      <h5>The title : </h5><input type="text" name="title"> <br>
-      <h5>Write your article here :</h5> <textarea class="form-control" id="edittext" name="text"></textarea> <br>
+      <h5>The title : </h5><input type="text" name="title"><br>
+      <h5>Write your article here :</h5> <textarea class="form-control" id="edittext" name="text" rows="30"></textarea> <br>
       <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" name="submit" value="add">
       Add
       </button>

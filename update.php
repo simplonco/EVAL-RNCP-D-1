@@ -8,22 +8,25 @@
     <link href="path/to/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 	<link href="bootstrap3-wysihtml5.min.css" rel="stylesheet">
 	 <link rel="stylesheet" href="./material.min.css">
+   <link rel="stylesheet" href="css/article.css">
       <script src="./material.min.js"></script>
-
-    <style type="text/css">
-      body{
-        margin: 50px;
-        background-image: url(Photos/codd.jpg);      }
-        h1{
-          color:rgb(152, 210, 250);
-        }
-        h5{
-          color:rgb(152, 210, 250);
-        }
-    </style>
 
 </head>
 <body>
+ <!--Start list  page -->
+   <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+     <div class="navbar-header">
+       <a class="navbar-brand" href="index.php">Konexio</a>
+     </div>
+     <ul class="nav navbar-nav">
+       <li class="active"><a href="index_admin.php">Home</a></li>
+       <li><a href="article_admin.php">Articles</a></li>
+       <li><a href="add_article.php">Add articles</a></li>
+     </ul>
+   </div>
+  </nav>
+    <!--End list page -->
 <h1>Modify article</h1>
 
 <?php
@@ -35,7 +38,7 @@ $sql1= "SELECT title,text,id FROM article WHERE id=$id";
       
       if($row = $result1->fetch_assoc()){
         echo '<form method="post"><input type="text" name="title" value=' . $row['title'] . '>';
-        echo '<textarea class="form-control" id="edittext" name="text"> ' . $row['text'] . '</textarea>';
+        echo '<textarea class="form-control" id="edittext" name="text" rows="50"> ' . $row['text'] . '</textarea>';
               
       } 
 ?>
@@ -49,7 +52,7 @@ if (isset($_POST['submit'])) {
 	$sql = "UPDATE article SET title = '$title' , text = '$text' WHERE id = '$id' ";
 	if ($conn->query($sql) === TRUE) {
     echo "Record updated successfully";
-    header('Location:add_article.php');
+    header('Location:article_admin.php');
 } else {
     echo "Error updating record: " . $conn->error;
 }

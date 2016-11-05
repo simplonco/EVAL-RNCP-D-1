@@ -10,5 +10,5 @@ if ($conn->query($sql) === TRUE) {
 } else {
     echo "Error deleting record: " . $conn->error;
 }
-header("Location: index_admin.php");
+header("Location: article_admin.php");
 ?> 

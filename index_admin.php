@@ -1,7 +1,4 @@
 
-<?php
-
- ?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -16,35 +13,27 @@
   </head>
   <body>
     <!--Start first page -->
-    <div class="container-fluid">
-      <div class="row-fluid">
-        <div class="col-sx-12">
+    <div class="cont">
           <h2 align="center">Connecting the world together through code</h2>
           <h4 align="center">Welcoming refugees into the community through tech</h4>
           <img src="images/backg.jpg" width="100" height="100" alt="logo" class="img-responsive center-block"/>
-        </div>
-      </div>
     </div>
       <!--End first page -->
     <!--Start list  page -->
     <nav class="navbar navbar-inverse">
-  <div class="container links">
+    <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">WebSiteName</a>
+      <a class="navbar-brand" href="index.php">Konexio</a>
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Home</a></li>
-      <li><a href="article.php">Articles</a></li>
-      <li><a href="add_article.php">Add articles</a></li>
-      <li><a href="#" data-value="">About Konexio</a></li>
-      <li><a href="#" data-value="team">Team & partners</a>
-  </li>
-  <li><a href="#" data-value="main-act">Main Activities</a>
-  </li>
-    <li><a href="#" data-value="contact">Contact</a>
-  </li>
-  <li><a href="#" data-value="testi-m">Testimonial </a>
-  </li>
+        <li class="active"><a href="index_admin.php">Home</a></li>
+        <li><a href="#" data-value="">About Konexio</a></li>
+        <li><a href="#" data-value="team">Team & partners</a></li>
+	    <li><a href="#" data-value="main-act">Main Activities</a></li>
+	    <li><a href="article.php">Articles</a></li>
+	    <li><a href="add_article.php">Add articles</a></li>
+	    <li><a href="#" data-value="contact">Contact</a></li>
+        <li><a href="#" data-value="testi-m">Testimonial </a></li>
   </ul>
   </div>
 </nav>
@@ -58,13 +47,12 @@
          Refugees face a number of tough challenges once their asylum status has been obtained, but one of the most critical and most burdensome problems for European nations medium to longer term will be that of economic integration through job opportunity.
          Our organization aims to tackle this by providing refugees with opportunities to learn and connect with through code.
         </p>
-        <h4>The objectives of our organization are as follows</h4>
+        <h3>The objectives of our organization are as follows :</h3>
         <p>
-        <li>Teach fundamental concepts of web development through easy, interactive methods and online platforms</li>
-        <li>Empower our participants with professional opportunities</li>
-        <li>Build a supportive community of individuals passionate about code and engaged in the tech community</li>
-          
-        </p>
+        * Teach fundamental concepts of web development through easy, interactive methods and online platforms.<br>
+        * Empower our participants with professional opportunities<br>
+        * Build a supportive community of individuals passionate about code and engaged in the tech community<br>
+        </p> 
       </div>
     </div>
     <hr>
@@ -76,9 +64,9 @@
             <h1 align="center">Main Activities</h1>
             <h3>Workshops</h3>
             <p>
-            We give free regular workshops several evenings per week for 4-6 week sessions.
+              We give free regular workshops several evenings per week for 4-6 week sessions.
               The sessions start with basic concepts of web development—moving from HTML and CSS to Javascript and beyond, and make use of interactive online platforms and exercises adapted for participants of all backgrounds and learning abilities.
-          Interested in learning more about to participate in these workshops? Please fill out the questionnaire (this is a link to a google form) in the link provided <a href="#">here</a>, and we Whilel follow up with you for more details!
+              Interested in learning more about to participate in these workshops? Please fill out the questionnaire (this is a link to a google form) in the link provided <a href="#">here</a>, and we Whilel follow up with you for more details!
             </p>
           <div class="slid">
             <div class="act">
@@ -114,7 +102,7 @@
                   <img class="img-circle" src="images/Jean.jpg" alt="Jean" width="150" height="150"/>
                   <h4> Jean Guo</h4>
                   <p>
-                With a background in economics, public health, and policy, Jean is passionate about improving and addressing disparities with regard to equal opportunity. She developed the idea for the project through conversations with the refugee community, which made her realize their lack of access to professional
+                   With a background in economics, public health, and policy, Jean is passionate about improving and addressing disparities with regard to equal opportunity. She developed the idea for the project through conversations with the refugee community, which made her realize their lack of access to professional
                   </p>
                   <a href="#"><i class="fa fa-facebook-square fa-3x"></i></a>
                   <a href="#"><i class="fa fa-linkedin-square fa-3x"></i></a>
