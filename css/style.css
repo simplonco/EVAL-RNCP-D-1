@@ -22,6 +22,7 @@
    background-color: #ccccff;
    color: #000;
    margin-top: 20px;
+   margin-top: -20px;
  }
  .about h1{
    margin-bottom: 20px;
@@ -38,7 +39,7 @@
    position: relative;
    text-align: center;
    padding: 40px 0;
-   margin: 20px 0;
+   margin-top: -40px;
  }
  .main-act  h3{
    font-size: 30px;
@@ -94,6 +95,49 @@
  .our-team .perso-info{
    margin-bottom: 40px;
  }
+ .our-team .perso-info .jean{
+   background-image: url(../images/Jean.jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
+   width: 150px;
+   height: 180px;
+margin: 10px auto;
+border-radius: 50%;}
+   .our-team .perso-info .mardi{   background-image: url(../images/mardi.jpg);
+       background-repeat: no-repeat;
+      background-size: 100%;
+      width: 150px;
+      height: 180px;
+   margin: 10px auto;
+   border-radius: 50%;}
+      .our-team .perso-info .suliman{   background-image: url(../images/mio.jpg);
+          background-repeat: no-repeat;
+         background-size: cover;
+         width: 150px;
+         height: 180px;
+      margin: 10px auto;
+      border-radius: 50%;}
+     .our-team .perso-info .dustin{   background-image: url(../images/dustin.png);
+         background-repeat: no-repeat;
+        background-size: cover;
+        width: 150px;
+        height: 180px;
+     margin: 10px auto;
+     border-radius: 50%;}
+         .our-team .perso-info .elisabeth{   background-image: url(../images/elisa.png);
+             background-repeat: no-repeat;
+            background-size: cover;
+            width: 150px;
+            height: 180px;
+         margin: 10px auto;
+         border-radius: 50%;}
+           .our-team .perso-info .megan{   background-image: url(../images/megan.png);
+               background-repeat: no-repeat;
+              background-size: cover;
+              width: 150px;
+              height: 180px;
+           margin: 10px auto;
+           border-radius: 50%;}
  /*!--End Team  page --*/
 
  /*!--Start Partners  page --*/
@@ -101,6 +145,14 @@
    background-image: url(../images/team.jpg);
    background-repeat: no-repeat;
    background-size: cover;
+ }
+ .par-img {
+width: 600px;
+height: 300px;
+ }
+ .par-img img{
+   width: 94%;;
+   height: 94%;
  }
  .our-partners h1{
    text-align: center;
