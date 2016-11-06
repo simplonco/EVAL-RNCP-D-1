@@ -114,7 +114,8 @@
                 <div class="mardi"> </div>
                  <h4> Elmardi YAHIA</h4>
                   <p>
-                    Developer web php experiences and skills technics in programming languages with an enough background about computer networks
+                    Developer web php experiences and skills technics in programming languages with an enough background about computer networks,
+                    interets writing & reading, football usually.
                   </p>
                   <a href="#"><i class="fa fa-github-square fa-3x"></i></a>
                   <a href="#"><i class="fa fa-linkedin-square fa-3x"></i></a>
@@ -185,12 +186,12 @@
             <div class="row">
               <div class="col-xs-6">
                 <div class="par-img">
-                  <img src="images/singa.png" alt="SINGA" width="300" height="300" />
+                  <img src="images/singa.png" alt="SINGA" />
                 </div>
               </div>
               <div class="col-xs-6">
                 <div class="par-img">
-                <img src="images/simp.png" alt="Simplon" width="300" height="300" />
+                <img src="images/simp.png" alt="Simplon" />
                 </div>
               </div>
               </div>
@@ -198,7 +199,7 @@
               <div class="row">
               <div class="col-xs-6">
                 <div class="par-img">
-                 <img src="images/picoulet.jpg" alt="" width="300" height="300"/>
+                 <img src="images/picoulet.jpg" alt="" "/>
                 </div>
               </div>
                <div class="col-xs-6">
