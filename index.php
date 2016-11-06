@@ -25,15 +25,14 @@
     <div class="navbar-header">
       <a class="navbar-brand" >Konexio</a>
     </div>
-    <ul class="nav navbar-nav links">
+    <ul class="nav navbar-nav" id="drop-nav">
       <li class="active"><a href="index.php">Home</a></li>
-      <li><a href="#" data-value="">About Konexio</a></li>
-      <li><a href="#" data-value="team">Team</a></li>
-      <li><a href="#" data-value="our-partners">Partners</a></li>
-      <li><a href="#" data-value="main-act">Main Activities</a></li>
+      <li><a href="#">About Konexio</a></li>
+      <li><a href="#team" >Team & partners</a></li>
+      <li><a href="#main-act">Main Activities</a></li>
       <li><a href="article.php">Articles</a></li>
-      <li><a href="#" data-value="contact">Contact</a></li>
-      <li><a href="#" data-value="testi-m">Testimonial </a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#testi-m">Testimonial </a></li>
     </ul>
   </div>
 </nav>
@@ -46,13 +45,13 @@
          With the recent migrant crisis impacting Europe and the world on an unprecedented scale, our mission is to contribute to the process of integration of refugees into these communities through innovation and technology.
          Refugees face a number of tough challenges once their asylum status has been obtained, but one of the most critical and most burdensome problems for European nations medium to longer term will be that of economic integration through job opportunity.
          Our organization aims to tackle this by providing refugees with opportunities to learn and connect with through code.
-        </p>
+        </p> 
         <h3>The objectives of our organization are as follows :</h3>
         <p>
         * Teach fundamental concepts of web development through easy, interactive methods and online platforms.<br>
         * Empower our participants with professional opportunities<br>
         * Build a supportive community of individuals passionate about code and engaged in the tech community<br>
-        </p>
+        </p> 
       </div>
     </div>
     <hr>
@@ -99,7 +98,7 @@
             <div class="row">
               <div class="col-xs-4">
                 <div class="perso-info">
-                <div class="jean"> </div>
+                  <img class="img-circle" src="images/Jean.jpg" alt="Jean" width="150" height="150"/>
                   <h4> Jean Guo</h4>
                   <p>
                 With a background in economics, public health, and policy, Jean is passionate about improving and addressing disparities with regard to equal opportunity. She developed the idea for the project through conversations with the refugee community, which made her realize their lack of access to professional
@@ -111,11 +110,10 @@
               </div>
               <div class="col-xs-4">
                 <div class="perso-info">
-                <div class="mardi"> </div>
-                 <h4> Elmardi YAHIA</h4>
+                  <img class="img-circle" src="images/mardi.jpg" alt="Elmardi"  width="150" height="150"/>
+                  <h4> Elmardi YAHIA</h4>
                   <p>
-                    Developer web php experiences and skills technics in programming languages with an enough background about computer networks,
-                    interets writing & reading, football usually.
+                    Developer web php experiences and skills technics in programming languages with an enough background about computer networks
                   </p>
                   <a href="#"><i class="fa fa-github-square fa-3x"></i></a>
                   <a href="#"><i class="fa fa-linkedin-square fa-3x"></i></a>
@@ -124,7 +122,7 @@
               </div>
               <div class="col-xs-4">
                 <div class="perso-info">
-                <div class="suliman"></div>
+                  <img class="img-circle" src="images/mio.jpg" alt="Suliman"  width="150" height="150"/>
                   <h4> Suliman ABDU</h4>
                   <p>
                     Developer web php experiences and skills technics in programming languages with background about IT (information technology)
@@ -138,10 +136,10 @@
             <div class="row">
               <div class="col-xs-4">
                 <div class="perso-info">
-                  <div class="dustin"></div>
+                  <img class="img-circle" src="images/dustin.png" alt="Jean"  width="150" height="150"/>
                   <h4> Dustin Coates</h4>
                   <p>
-                   Dustin is a software engineer and web development instructor. He's taught hundreds of non-technical students
+                   Dustin is a software engineer and web development instructor. He's taught hundreds of non-technical students 
                    technical topics on web development. From Texas, he now lives in Paris.
                   </p>
                   <a href="#"><i class="fa fa-facebook-square fa-3x"></i></a>
@@ -151,7 +149,7 @@
               </div>
               <div class="col-xs-4">
                 <div class="perso-info">
-                  <div class="elisabeth"></div>
+                  <img class="img-circle" src="images/elisa.png" alt="Jean" width="150" height="150"/>
                   <h4> Elisabeth Hansen</h4>
                   <p>
                    While currently studying microbiology, Elisabeth's interests are far-reaching. She enjoys coding and meeting new people, and seeks to be involved in her community and to extend educational opportunities to those everyone. She is fluent in English and French. In her free time, she enjoys dancing, jogging, and painting.
@@ -163,7 +161,7 @@
               </div>
               <div class="col-xs-4">
                 <div class="perso-info">
-                  <div class="megan"></div>
+                  <img class="img-circle" src="images/megan.png" alt="Jean" width="150" height="150"/>
                   <h4> Megan Angell</h4>
                   <p>
                   Megan has a background in economics, mathematics, and Italian and is interested in the ways in which public policy and nonprofit organizations can benefit economic well-being. She has experience in HTML/CSS coding and programming for statistical analysis. In her free time, she loves reading, traveling, and exploring the outdoors.
@@ -186,12 +184,12 @@
             <div class="row">
               <div class="col-xs-6">
                 <div class="par-img">
-                  <img src="images/singa.png" alt="SINGA" />
+                  <img src="images/singa.png" alt="SINGA" width="300" height="300" />
                 </div>
               </div>
               <div class="col-xs-6">
                 <div class="par-img">
-                <img src="images/simp.png" alt="Simplon" />
+                <img src="images/simp.png" alt="Simplon" width="300" height="300" />
                 </div>
               </div>
               </div>
@@ -199,7 +197,7 @@
               <div class="row">
               <div class="col-xs-6">
                 <div class="par-img">
-                 <img src="images/picoulet.jpg" alt="" "/>
+                 <img src="images/picoulet.jpg" alt="" width="300" height="300"/> 
                 </div>
               </div>
                <div class="col-xs-6">

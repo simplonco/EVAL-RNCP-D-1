@@ -1,9 +1,6 @@
-/*  Start  our main lists  */
-/*  End  our main lists  */
-
-
-/*  Start  our main lists  */
-/*  End  our main lists  */
+body{
+  background-color: rgb(28, 105, 134);
+}
 
 /*  Start  container-fluid  */
 .cont{
@@ -19,12 +16,11 @@
 
  /*  Start about  */
  .about{
-   background-color: #ccccff;
    color: #000;
    margin-top: 20px;
-   margin-top: -20px;
  }
  .about h1{
+  color: rgb(28, 105, 134);
    margin-bottom: 20px;
  font-size: 40px;
  text-align: center;
@@ -35,17 +31,18 @@
  /*  End  about  */
  /*  Start  main-act  */
  .main-act{
-   background-color: #ccccff;
    position: relative;
    text-align: center;
    padding: 40px 0;
-   margin-top: -40px;
+   margin: 20px 0;
  }
  .main-act  h3{
+    color: rgb(13, 44, 73);
    font-size: 30px;
    text-align: center;
  }
  .main-act  h1{
+  color: rgb(28, 105, 134);
    font-size: 40px;
    margin-bottom: 20px;
    text-align: center;
@@ -93,51 +90,8 @@
    margin-bottom: 50px;
  }
  .our-team .perso-info{
-   margin-bottom: 30px;
+   margin-bottom: 40px;
  }
- .our-team .perso-info .jean{
-   background-image: url(../images/Jean.jpg);
-    background-repeat: no-repeat;
-   background-size: 100% 100%;
-   width: 160px;
-   height: 180px;
-margin: 10px auto;
-border-radius: 50%;}
-   .our-team .perso-info .mardi{   background-image: url(../images/mardi.jpg);
-       background-repeat: no-repeat;
-      background-size: 100% 100%;
-      width: 160px;
-      height: 180px;
-   margin: 10px auto;
-   border-radius: 50%;}
-      .our-team .perso-info .suliman{   background-image: url(../images/mio.jpg);
-          background-repeat: no-repeat;
-         background-size: 100% 100%;
-         width: 160px;
-         height: 180px;
-      margin: 10px auto;
-      border-radius: 50%;}
-     .our-team .perso-info .dustin{   background-image: url(../images/dustin.png);
-         background-repeat: no-repeat;
-        background-size: 100% 100%;
-        width: 160px;
-        height: 180px;
-     margin: 10px auto;
-     border-radius: 50%;}
-         .our-team .perso-info .elisabeth{   background-image: url(../images/elisa.png);
-             background-repeat: no-repeat;
-            background-size: cover;
-            width: 160px;
-            height: 180px;
-         margin: 10px auto;
-         border-radius: 50%;}
-           .our-team .perso-info .megan{   background-image: url(../images/megan.png);
-               background-repeat: no-repeat;
-              background-size: cover;
-              width: 160px;
-              height: 180px;
-           margin: 10px auto;
-           border-radius: 50%;}
  /*!--End Team  page --*/
 
  /*!--Start Partners  page --*/
@@ -145,14 +99,6 @@ border-radius: 50%;}
    background-image: url(../images/team.jpg);
    background-repeat: no-repeat;
    background-size: cover;
- }
- .par-img {
-width: 600px;
-height: 300px;
- }
- .par-img img{
-   width: 94%;;
-   height: 94%;
  }
  .our-partners h1{
    text-align: center;
@@ -242,16 +188,15 @@ border-radius: 55%;
 /*  End  our scroll buttom  */
 /*  Start  contact  */
 .conta{
-background-color: #9999ff;
+background-color: rgb(141, 202, 211);
   color:#000;
   text-align: center;
   right: 15px;
   bottom: 8px;
   z-index: 9999;
 }
-.conta h3{
-  text-align: center;
-  margin-bottom: 20px;
+.conta p{
+
 }
 /*  End  contact  */
 

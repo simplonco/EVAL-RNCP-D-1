@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Konexion</title>
+    <title>Konexio</title>
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/jquery.bxslider.css">
@@ -14,26 +14,28 @@
   <body>
     <!--Start first page -->
     <div class="cont">
+    	  <h1 align="center"> KONEXIO </h1>
           <h2 align="center">Connecting the world together through code</h2>
           <h4 align="center">Welcoming refugees into the community through tech</h4>
           <img src="images/backg.jpg" width="100" height="100" alt="logo" class="img-responsive center-block"/>
     </div>
       <!--End first page -->
     <!--Start list  page -->
-    <nav class="navbar navbar-inverse">
-    <div class="container-fluid">
+    <nav class="navbar navbar-inverse" >
+    <div id="scrollTo" class="container-fluid">
     <div class="navbar-header">
       <a class="navbar-brand" href="index.php">Konexio</a>
     </div>
-    <ul class="nav navbar-nav">
+    <ul class="nav navbar-nav" id="drop-nav">
         <li class="active"><a href="index_admin.php">Home</a></li>
         <li><a href="#" data-value="">About Konexio</a></li>
-        <li><a href="#" data-value="team">Team & partners</a></li>
-	    <li><a href="#" data-value="main-act">Main Activities</a></li>
+        <li><a href="#team">Team & Partners</a></li>
+	    <li><a href="#main-act">Our Activities</a></li>
 	    <li><a href="article.php">Articles</a></li>
 	    <li><a href="add_article.php">Add articles</a></li>
-	    <li><a href="#" data-value="contact">Contact</a></li>
-        <li><a href="#" data-value="testi-m">Testimonial </a></li>
+	    <li><a href="#contact">Contact</a></li>
+        <li><a href="#testi-m">Testimonial </a></li>
+        <li><a href="add_admin.php">Add user</a></li>
   </ul>
   </div>
 </nav>
@@ -55,19 +57,20 @@
         </p> 
       </div>
     </div>
-    <hr>
+    
       <!--End Introduction page -->
       <!--Start Main Activities page -->
       <div id="main-act" class="main-act">
         <div class="act-overlay">
           <div class="container">
-            <h1 align="center">Main Activities</h1>
+            <h1 align="center">Our Activities</h1>
             <h3>Workshops</h3>
             <p>
               We give free regular workshops several evenings per week for 4-6 week sessions.
               The sessions start with basic concepts of web development—moving from HTML and CSS to Javascript and beyond, and make use of interactive online platforms and exercises adapted for participants of all backgrounds and learning abilities.
-              Interested in learning more about to participate in these workshops? Please fill out the questionnaire (this is a link to a google form) in the link provided <a href="#">here</a>, and we Whilel follow up with you for more details!
+              Interested in learning more about to participate in these workshops? Please fill out the questionnaire (this is a link to a google form) in the link provided <a href="https://docs.google.com/forms/d/1yTA-z-rHlgFi_iG6B01b-Ebc7L_UknwDKUGfW8gIOQk/viewform">here</a>, and we will follow up with you for more details!
             </p>
+              
           <div class="slid">
             <div class="act">
               <img src="images/class.JPG" alt="class-" class="img-responsive center-block"/>
@@ -89,6 +92,9 @@
             </div>
           </div>
         </div>
+        <h3>Mentor Program</h3>
+            <p> Information to be updated.
+            </p>
       </div>
       <!--End Main Activities page -->
       <!--Start Team page -->
@@ -102,19 +108,17 @@
                   <img class="img-circle" src="images/Jean.jpg" alt="Jean" width="150" height="150"/>
                   <h4> Jean Guo</h4>
                   <p>
-                   With a background in economics, public health, and policy, Jean is passionate about improving and addressing disparities with regard to equal opportunity. She developed the idea for the project through conversations with the refugee community, which made her realize their lack of access to professional
+                   With a background in economics, public health, and policy, Jean is passionate about improving and addressing disparities with regard to equal opportunity. She developed the idea for the project through conversations with the refugee community, which made her realize their lack of access to professional.
                   </p>
-                  <a href="#"><i class="fa fa-facebook-square fa-3x"></i></a>
-                  <a href="#"><i class="fa fa-linkedin-square fa-3x"></i></a>
-                  <a href="#"><i class="fa fa-twitter-square fa-3x"></i></a>
+                  <a href="https://fr.linkedin.com/in/jean-guo-73a75514"><i class="fa fa-linkedin-square fa-3x"></i></a>
                 </div>
               </div>
               <div class="col-xs-4">
                 <div class="perso-info">
                   <img class="img-circle" src="images/mardi.jpg" alt="Elmardi"  width="150" height="150"/>
-                  <h4> Elmardi YAHIA</h4>
+                  <h4> Elmardi Yahia</h4>
                   <p>
-                    Developer web php experiences and skills technics in programming languages with an enough background about computer networks
+                    Web developer with experience in PHP and technical skills in programming languages with a background in computer networks
                   </p>
                   <a href="#"><i class="fa fa-github-square fa-3x"></i></a>
                   <a href="#"><i class="fa fa-linkedin-square fa-3x"></i></a>
@@ -124,13 +128,12 @@
               <div class="col-xs-4">
                 <div class="perso-info">
                   <img class="img-circle" src="images/mio.jpg" alt="Suliman"  width="150" height="150"/>
-                  <h4> Suliman ABDU</h4>
+                  <h4> Suliman Abdul</h4>
                   <p>
-                    Developer web php experiences and skills technics in programming languages with background about IT (information technology)
+                    Web developer with experience in PHP and technical skills in programming languages with specialization in back-end 
                   </p>
-                  <a href="#"><i class="fa fa-github-square fa-3x"></i></a>
-                  <a href="#"><i class="fa fa-linkedin-square fa-3x"></i></a>
-                  <a href="#"><i class="fa fa-twitter-square fa-3x"></i></a>
+                  <a href="https://github.com/solomongamid"><i class="fa fa-github-square fa-3x"></i></a>
+                  <a href="https://www.linkedin.com/in/suliman-adul-525925118"><i class="fa fa-linkedin-square fa-3x"></i></a>
                 </div>
               </div>
             </div>
@@ -143,9 +146,8 @@
                    Dustin is a software engineer and web development instructor. He's taught hundreds of non-technical students 
                    technical topics on web development. From Texas, he now lives in Paris.
                   </p>
-                  <a href="#"><i class="fa fa-facebook-square fa-3x"></i></a>
-                  <a href="#"><i class="fa fa-linkedin-square fa-3x"></i></a>
-                  <a href="#"><i class="fa fa-twitter-square fa-3x"></i></a>
+                  <a href="https://www.linkedin.com/in/dustincoates"><i class="fa fa-linkedin-square fa-3x"></i></a>
+                  <a href="https://github.com/dustincoates"><i class="fa fa-github-square fa-3x"></i></a>
                 </div>
               </div>
               <div class="col-xs-4">
@@ -155,9 +157,7 @@
                   <p>
                    While currently studying microbiology, Elisabeth's interests are far-reaching. She enjoys coding and meeting new people, and seeks to be involved in her community and to extend educational opportunities to those everyone. She is fluent in English and French. In her free time, she enjoys dancing, jogging, and painting.
                           </p>
-                  <a href="#"><i class="fa fa-facebook-square fa-3x"></i></a>
-                  <a href="#"><i class="fa fa-linkedin-square fa-3x"></i></a>
-                  <a href="#"><i class="fa fa-twitter-square fa-3x"></i></a>
+                    <a href="https://www.linkedin.com/in/elisabeth-hansen-56b491b9"><i class="fa fa-linkedin-square fa-3x"></i></a>
                 </div>
               </div>
               <div class="col-xs-4">
@@ -167,9 +167,7 @@
                   <p>
                   Megan has a background in economics, mathematics, and Italian and is interested in the ways in which public policy and nonprofit organizations can benefit economic well-being. She has experience in HTML/CSS coding and programming for statistical analysis. In her free time, she loves reading, traveling, and exploring the outdoors.
                   </p>
-                  <a href="#"><i class="fa fa-facebook-square fa-3x"></i></a>
-                  <a href="#"><i class="fa fa-linkedin-square fa-3x"></i></a>
-                  <a href="#"><i class="fa fa-twitter-square fa-3x"></i></a>
+                  <a href="https://www.linkedin.com/in/angellmegan"><i class="fa fa-linkedin-square fa-3x"></i></a>
                 </div>
               </div>
             </div>
@@ -177,28 +175,31 @@
         </div>
       </section>
       <!--End Team   page -->
-      <!--Start partners page -->
+       <!--Start partners page -->
       <section class="our-partners">
         <div class="Partners">
-          <div id="our-partners" class="container">
+          <div id="our-partners" class="container-fluit">
             <h1>Partners</h1>
             <div class="row">
-              <div class="col-xs-3">
+              <div class="col-xs-6">
                 <div class="par-img">
                   <img src="images/singa.png" alt="SINGA" width="300" height="300" />
                 </div>
               </div>
-              <div class="col-xs-3">
+              <div class="col-xs-6">
                 <div class="par-img">
-                  <img src="images/picoulet.jpg" alt="" width="300" height="300"/>
+                <img src="images/simp.png" alt="Simplon" width="300" height="300" />
                 </div>
               </div>
-              <div class="col-xs-3">
+              </div>
+              <br>
+              <div class="row">
+              <div class="col-xs-6">
                 <div class="par-img">
-                  <img src="images/simp.png" alt="Simplon" width="300" height="300" />
+                 <img src="images/picoulet.jpg" alt="" width="300" height="300"/> 
                 </div>
               </div>
-               <div class="col-xs-3">
+               <div class="col-xs-6">
                 <div class="par-img">
                   <img src="images/im.png" alt="" width="300" height="300"/>
                 </div>
@@ -213,11 +214,27 @@
     <i class="fa fa-chevron-up fa-3x"></i>
       </div>
         <!--End Button scrollButtom -->
-      <hr>
+      
       <!--Start Contact Us  page -->
       <div class="conta">
         <div class="container" id="contact">
-          <h3>Contact Us</h3>
+          
+          <h2>Call for Volunteers</h2>
+          <p>
+          	We are currently looking for volunteers to join our efforts!
+          </p>
+          <h3>Guest speakers and instructors</h3>
+          <p>
+          	Are you passionate about web development? Do you have coding projects or work as a developer? Come and share your experiences as a guest speaker! 
+            
+          </p>
+          <h3>Partnership building and fund development</h3>
+          <p>
+          	We need help with workshop coordination, funding efforts, and community partnership building
+            Fluency in French is a plus, but good communication skills in English and enthusiasm for the cause are all that’s required.<br>
+            Please fill out the questionnaire (this is a link to a google form) in the link provided <a href="https://docs.google.com/forms/d/e/1FAIpQLScSpKsx1AmEYzg3KAo_m5bkoGH8K06SeQBoxE5yckpoz8GLQQ/viewform"> here </a>, and we will follow up with you for more details!
+          </p>
+          <h2>Contact Us</h2>
           <form action="index.php" method="post" class="form-group">
             <input type="text" name="name" value="" placeholder="write your name"><br>
             <input type="email" name="email" value="" placeholder="write your E-mail"><br>
@@ -232,7 +249,7 @@
       <div id="testi-m" class="testim">
       <div class="te-overlay">
         <div class="container">
-          <h2><u>What say our learners</u></h2>
+          <h2><u>Testimonials</u></h2>
         <div class="slider">
           <div class="active">
             <q cite="Elmardi">This really great idea to this kind of project that help peoples to discover the coding in simple way!</q><br>
@@ -274,9 +291,7 @@
       <!--End  media Contact  page -->
       <!--Start footer  page -->
       <footer>
-        <p align="center">
-         all rights reserved to Elmardi & Suliman copyright© --2016
-        </p>
+         All rights reserved to Elmardi & Suliman copyright© --2016
       </footer>
       <!--End footer  page -->
    <script src="js/jquery-3.1.0.min.js"></script>

@@ -1,24 +1,4 @@
-<?php
-  include 'connect.php';
 
-  	
-      // email and password sent from form 
-      
-      $email = $conn->real_escape_string($_POST['email']);
-      $password = $conn->real_escape_string($_POST['password']); 
-
-      $query = "SELECT `email` AND `password` FROM `login` WHERE `email` = '$email' AND `password` = '$password'";
-      
-      $result = $conn->query($query);
-      if($result->num_rows == 1) {
-
-       header('Location:index_admin.php');
-       die();
-    } else {
-     $error = 'User does not exist'; }
-
-
- ?>
  <!DOCTYPE html>
  <html>
  <head>
@@ -52,13 +32,34 @@
             
          </div>
          <div class="mdl-card__actions mdl-card--border">
-            <button class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" type="submit" value=" Submit">Log in</button>
+            <button class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" type="submit" value=" Submit">Sumbit</button>
+
             </form>
             <div style = "font-size:11px; color:#cc0000; margin-top:10px"><?php echo $error; ?></div>
+            <a href="login.php"> Sign in</a>
          </div>
       </div>
      </main>
    </div>
- 
+ <?php
+  include 'connect.php';
+
+    
+      // email and password sent from form 
+      
+      $email = $conn->real_escape_string($_POST['email']);
+      $password = $conn->real_escape_string($_POST['password']); 
+
+      $sql = "INSERT INTO login (email,password) VALUES ('$email' ,'$password')";
+      
+      if ($conn->query($sql) === TRUE) {
+    $error = "New record created successfully";
+
+} else {
+    echo "Error: " . $sql . "<br>" . $conn->error;
+}
+
+
+ ?>
  </body>
  </html>
